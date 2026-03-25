@@ -7,10 +7,21 @@
   
 - Plans tiene información sobre los 2 planes ConnectaTel, usage tiene 40000 datos sobre duración y largo de mensajes de texto o llamadas de la empresa, users_latam contiene 4000 datos de usuarios de los planes de la empresa con valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales de la empresa
 
-## Análisis de una empresa de telecomunicaciones-📂 Contenido del repositorio
+# Análisis de una empresa de telecomunicaciones
+## 📂 Contenido del repositorio
 
-- `notebooks/S7_Version_Estudiante_Project_ConnectaTel.ipynb`
+- `S7_Version_Estudiante_Project_ConnectaTel.ipynb`
   → Notebook principal con limpieza, distribuciones, outliers, visualizaciones y conclusiones.
+
+## ✪ Etapas Realizadas:
+
+- Carga y exploración de los datasets
+- Identificación de problemas de calidad de datos: valores nulos, sentinels, estandarización de fechas
+- Limpieza básica de los datos
+- Summary statistics de uso por usuario: usage se agrupó por usuario y se resumieron sus variables más importantes
+- visualización de distribuciones mediante histogramas, identificación de oultiers con Boxplots
+- Segmentación de clientes por uso y por edad
+- Resumen Ejecutivo
 
 ## ▶ Cómo abrir el notebook en Google Colab
 
@@ -25,7 +36,7 @@ O:
 
 ## 📘 Cómo reproducir el análisis
 
-1. Abre `notebooks/S7_Version_Estudiante_Project_ConnectaTel.ipynb`
+1. Abre `S7_Version_Estudiante_Project_ConnectaTel.ipynb`
 2. Ejecuta las celdas en orden (tal vez haya que cambiar el path del dataset porque es relativo)
 3. El notebook carga 3 datasets que incluí en /data/
 
