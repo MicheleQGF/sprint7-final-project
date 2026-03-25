@@ -1,7 +1,11 @@
 # sprint7-final-project
 Este repositorio contiene el proyecto final del sprint 7- Análisis de una empresa de telecomunicaciones de Tripleten
-utiliza 3 datasets
-El dataset `everpeak_retail` incluye 2,000 órdenes de clientes con valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales del retail. :contentReference[oaicite:2]{index=2}
+utiliza 3 datasets:
+plans.csv
+usage.csv
+users_latam.csv
+Plans tiene información sobre los 2 planes ConnectaTel, usage tiene 40000 datos sobre duración y largo de mensajes de texto o llamadas de la empresa, users_latam contiene 4000 datos de usuarios de los planes de la empresa con valores faltantes, sentinels, outliers y problemas de calidad diseñados para simular datos reales de la empresa
+
 ## Análisis de una empresa de telecomunicaciones-📂 Contenido del repositorio
 
 - `notebooks/S7_Version_Estudiante_Project_ConnectaTel.ipynb`
@@ -22,11 +26,11 @@ O:
 
 1. Abre `notebooks/S7_Version_Estudiante_Project_ConnectaTel.ipynb`
 2. Ejecuta las celdas en orden
-3. El notebook carga automáticamente el dataset desde `/data/` o desde un enlace público (según corresponda)
+3. El notebook carga 3 datasets que incluí en /data/
 
 ## 🧠 Objetivo del análisis
 
 - Identificar problemas de calidad de datos
 - Analizar comportamientos, distribuciones y outliers
-- Visualizaciones de histogramas, boxplots, heatmaps para el análisi
+- Visualizaciones de histogramas, boxplots, heatmaps para el análisis
 - Generar insights sobre el comportamiento de uso de los clientes y cómo varía entre diferentes grupos de usuarios para el equipo de ConnectaTel.
